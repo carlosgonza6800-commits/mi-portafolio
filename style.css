@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+#logo img {
+    width: 60px;
+    height: auto;
+    display: block;
+}
+
+h1 {
+    font-family: fantasy, sans-serif;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0.5rem 0.75rem;
+}
+
+#L1, #L2, #L3 {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+#sobre-mi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 100vh;
+    background-color: #a00000;
+    padding: 2rem;
+}
+
+#sobre-mi #yo-2 {
+    flex-shrink: 0;
+}
+
+#sobre-mi #yo-2 img {
+    width: 180px;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+}
+
+#sobre-mi h2 {
+    margin-bottom: 1.5rem;
+}
+
+#sobre-mi p {
+    max-width: 500px;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+main h2 {
+    margin-bottom: 1.5rem;
+}
+
+main p {
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+#proyectos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 100vh;
+    background-color: #a00000;
+    padding: 2rem;
+}
+
+#proyectos h2 {
+    order: 1;
+    text-align: left;
+    min-width: 200px;
+}
+
+#proyectos p {
+    order: 2;
+    max-width: 400px;
+    text-align: right;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+#experiencia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 100vh;
+    background-color: #a00000;
+    padding: 2rem;
+}
+
+#experiencia h2 {
+    order: 1;
+    text-align: left;
+    min-width: 200px;
+}
+
+#experiencia p {
+    order: 2;
+    max-width: 400px;
+    text-align: right;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: #111;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
